@@ -44,7 +44,6 @@ function generateRandomNumber() {
     return generateRandomNumber();
   } else {
     alreadyGeneratedNumbers.push(generatedNumber);
-    console.log(alreadyGeneratedNumbers);
     return generatedNumber;
   } 
 }
